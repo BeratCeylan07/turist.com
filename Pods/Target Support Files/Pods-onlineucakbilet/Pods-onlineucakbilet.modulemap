@@ -1,0 +1,6 @@
+framework module Pods_onlineucakbilet {
+  umbrella header "Pods-onlineucakbilet-umbrella.h"
+
+  export *
+  module * { export * }
+}

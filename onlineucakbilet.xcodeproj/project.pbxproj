@@ -14,8 +14,9 @@
 		0E39E1562C25A6D300DE4236 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E39E1552C25A6D200DE4236 /* WebView.swift */; };
 		0E39E15B2C25A96C00DE4236 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0E39E15A2C25A96C00DE4236 /* FirebaseAnalytics */; };
 		0E39E15D2C25A96C00DE4236 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 0E39E15C2C25A96C00DE4236 /* FirebaseMessaging */; };
-		0E39E15F2C25A99300DE4236 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E39E15E2C25A99300DE4236 /* GoogleService-Info.plist */; };
 		0E6236182C2AD7A800309B09 /* GTM-5LL58QDZ.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E6236172C2AD7A800309B09 /* GTM-5LL58QDZ.json */; };
+		0EEED5B82C381E5A00F64AC3 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0EEED5B72C381E5A00F64AC3 /* FirebaseAnalyticsSwift */; };
+		0EEED5BC2C381EB200F64AC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EEED5BB2C381EB200F64AC3 /* GoogleService-Info.plist */; };
 		0EFCAF662C2AC6BE00D6987C /* GoogleTagManager in Frameworks */ = {isa = PBXBuildFile; productRef = 0EFCAF652C2AC6BE00D6987C /* GoogleTagManager */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +29,8 @@
 		0E39E1552C25A6D200DE4236 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		0E39E1572C25A71F00DE4236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0E39E1582C25A73000DE4236 /* onlineucakbilet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = onlineucakbilet.entitlements; sourceTree = "<group>"; };
-		0E39E15E2C25A99300DE4236 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0E6236172C2AD7A800309B09 /* GTM-5LL58QDZ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "GTM-5LL58QDZ.json"; path = "../../../Downloads/GTM-5LL58QDZ.json"; sourceTree = "<group>"; };
+		0EEED5BB2C381EB200F64AC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EEED5B82C381E5A00F64AC3 /* FirebaseAnalyticsSwift in Frameworks */,
 				0EFCAF662C2AC6BE00D6987C /* GoogleTagManager in Frameworks */,
 				0E39E15D2C25A96C00DE4236 /* FirebaseMessaging in Frameworks */,
 				0E39E15B2C25A96C00DE4236 /* FirebaseAnalytics in Frameworks */,
@@ -66,8 +68,8 @@
 		0E39E1462C25A69C00DE4236 /* onlineucakbilet */ = {
 			isa = PBXGroup;
 			children = (
+				0EEED5BB2C381EB200F64AC3 /* GoogleService-Info.plist */,
 				0E6236172C2AD7A800309B09 /* GTM-5LL58QDZ.json */,
-				0E39E15E2C25A99300DE4236 /* GoogleService-Info.plist */,
 				0E39E1582C25A73000DE4236 /* onlineucakbilet.entitlements */,
 				0E39E1572C25A71F00DE4236 /* Info.plist */,
 				0E39E1472C25A69C00DE4236 /* onlineucakbiletApp.swift */,
@@ -114,6 +116,7 @@
 				0E39E15A2C25A96C00DE4236 /* FirebaseAnalytics */,
 				0E39E15C2C25A96C00DE4236 /* FirebaseMessaging */,
 				0EFCAF652C2AC6BE00D6987C /* GoogleTagManager */,
+				0EEED5B72C381E5A00F64AC3 /* FirebaseAnalyticsSwift */,
 			);
 			productName = onlineucakbilet;
 			productReference = 0E39E1442C25A69C00DE4236 /* onlineucakbilet.app */;
@@ -162,8 +165,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E39E14F2C25A69E00DE4236 /* Preview Assets.xcassets in Resources */,
+				0EEED5BC2C381EB200F64AC3 /* GoogleService-Info.plist in Resources */,
 				0E39E14C2C25A69E00DE4236 /* Assets.xcassets in Resources */,
-				0E39E15F2C25A99300DE4236 /* GoogleService-Info.plist in Resources */,
 				0E6236182C2AD7A800309B09 /* GTM-5LL58QDZ.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +313,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = onlineucakbilet/onlineucakbilet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"onlineucakbilet/Preview Content\"";
 				DEVELOPMENT_TEAM = A34D794YMF;
 				ENABLE_PREVIEWS = YES;
@@ -327,7 +330,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1;
+				MARKETING_VERSION = 3.5;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.turist.onlineucakbilet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -347,7 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = onlineucakbilet/onlineucakbilet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"onlineucakbilet/Preview Content\"";
 				DEVELOPMENT_TEAM = A34D794YMF;
 				ENABLE_PREVIEWS = YES;
@@ -364,7 +368,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1;
+				MARKETING_VERSION = 3.5;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.turist.onlineucakbilet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -429,6 +434,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0E39E1592C25A96C00DE4236 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
+		};
+		0EEED5B72C381E5A00F64AC3 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E39E1592C25A96C00DE4236 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
 		};
 		0EFCAF652C2AC6BE00D6987C /* GoogleTagManager */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -1,10 +1,10 @@
 import SwiftUI
 import Firebase
 import UserNotifications
-
 @main
-struct onlineucakbiletApp: App {
-    
+
+struct sarifrezyaApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
             ContentView()

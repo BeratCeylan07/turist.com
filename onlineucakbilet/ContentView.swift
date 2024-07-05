@@ -10,7 +10,7 @@ struct ContentView: View {
             WebView(webView: webViewStore.webView)
             
         }.onAppear {
-            self.webViewStore.webView.load(URLRequest(url: URL(string: "https://turist.com")!))
+            self.webViewStore.webView.load(URLRequest(url: URL(string: "https://mobile.onlineucakbilet.com")!))
         }
     }
 }

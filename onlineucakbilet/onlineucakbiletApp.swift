@@ -4,11 +4,13 @@ import UserNotifications
 @main
 
 struct sarifrezyaApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+      WindowGroup {
+        NavigationView {
+          ContentView()
         }
+      }
     }
 }
 class AppDelegate: NSObject, UIApplicationDelegate {

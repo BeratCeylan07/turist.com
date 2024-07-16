@@ -1,4 +1,6 @@
 import SwiftUI
+import FirebaseAnalytics
+
 
 struct ContentView: View {
     
@@ -11,6 +13,13 @@ struct ContentView: View {
             
         }.onAppear {
             self.webViewStore.webView.load(URLRequest(url: URL(string: "https://mobile.onlineucakbilet.com")!))
+            logCustomEvent()
         }
+    }
+    func logCustomEvent() {
+        Analytics.logEvent("custom_event", parameters: [
+            "event_name": "custom_event_triggered",
+            "description": "This is a custom event"
+        ])
     }
 }
